@@ -1,0 +1,18 @@
+platform :ios, '13.0'
+use_frameworks!
+
+# Xcode 工程在子目录 DemoApp 下
+
+target 'DemoApp' do
+  # 示例依赖：使用 SDWebImage 验证 CocoaPods 流程
+#  pod 'SDWebImage'
+end
+
+target 'DemoAppTests' do
+#  inherit! :search_paths
+end
+
+target 'DemoAppUITests' do
+#  inherit! :search_paths
+end
+
