@@ -1,0 +1,4 @@
+# Appfile：DemoApp 的 App 信息（供后续 pilot/deliver 等使用时可引用）
+# 当前仅做占位，上传 App Store / TestFlight 时再配置 apple_id、team_id 等
+
+app_identifier("ms.DemoApp")
