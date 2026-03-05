@@ -12,6 +12,7 @@ platform :ios do
     demoapp_path    = File.join(repo_root, "DemoApp")
     build_dir       = File.join(repo_root, "ci-scripts", "build")
     notify_feishu   = File.join(repo_root, "ci-scripts", "notify", "notify_feishu.py")
+    notify_email    = File.join(repo_root, "ci-scripts", "notify", "notify_email.py")
 
     begin
       # 2. 安装依赖（与 Jenkins 中一致，使用 RVM 调用 pod）
@@ -29,11 +30,13 @@ platform :ios do
         sh("chmod +x #{File.join(build_dir, 'build_archive.sh')} && #{File.join(build_dir, 'build_archive.sh')}")
       end
 
-      # 5. 构建成功：通知飞书
+      # 5. 构建成功：通知飞书 + 邮件
       sh("python3 #{notify_feishu} --status success --text 'Demo CI 构建成功'")
+      sh("python3 #{notify_email}  --status success")
     rescue => e
-      # 6. 构建失败：通知飞书（通知失败不阻塞抛错，用 || true 吃掉自身错误）
+      # 6. 构建失败：通知飞书 + 邮件（通知失败不阻塞抛错，用 || true 吃掉自身错误）
       sh("python3 #{notify_feishu} --status failure --text 'Demo CI 构建失败: #{e.message}' || true")
+      sh("python3 #{notify_email}  --status failure || true")
       raise e
     end
   end
