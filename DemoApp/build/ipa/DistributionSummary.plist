@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DemoApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>15A411FF35E855C35AD905FFBA71CD002ECFE569</string>
+				<key>dateExpires</key>
+				<string>2026/10/10</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>597KH49S4M.ms.DemoApp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>597KH49S4M</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>DemoApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a56ed96f-429f-4625-8c0b-5bd44322f282</string>
+				<key>dateExpires</key>
+				<string>2026/3/11</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: ms.DemoApp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>597KH49S4M</string>
+				<key>name</key>
+				<string>ms shi</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
