@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000259">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 &amp;&amp; /Users/tt/.rvm/bin/rvm 3.4.6 do pod install" time="1.597309">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: chmod +x /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/ci-scripts/build/build_debug.sh &amp;&amp; /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/ci-scripts/build/build_debug.sh" time="5.992006">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: chmod +x /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/ci-scripts/build/build_archive.sh &amp;&amp; /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/ci-scripts/build/build_archive.sh" time="8.18635">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

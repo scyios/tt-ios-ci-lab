@@ -1,0 +1,34 @@
+# Fastfile for tt-ios-ci-lab (DemoApp)
+# 在仓库根目录执行：fastlane ios demo_ci
+# 参考文档：Doc/06_fastlane_配置与实战.md
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Demo CI：pod install + build_debug + build_archive，导出 IPA"
+  lane :demo_ci do
+    # 1. 安装依赖（与 Jenkins 中一致，使用 RVM 调用 pod）
+    # 使用 Fastfile 所在目录为基准，兼容 fastlane 内部的目录切换行为
+    repo_root     = File.expand_path("..", __dir__)
+    demoapp_path  = File.join(repo_root, "DemoApp")
+    build_dir     = File.join(repo_root, "ci-scripts", "build")
+
+    Dir.chdir(demoapp_path) do
+      sh("export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 && /Users/tt/.rvm/bin/rvm 3.4.6 do pod install")
+    end
+
+    # 2. Debug 构建（对应 ci-scripts/build/build_debug.sh）
+    Dir.chdir(repo_root) do
+      sh("chmod +x #{File.join(build_dir, 'build_debug.sh')} && #{File.join(build_dir, 'build_debug.sh')}")
+    end
+
+    # 3. Archive + 导出 IPA（对应 ci-scripts/build/build_archive.sh）
+    Dir.chdir(repo_root) do
+      sh("chmod +x #{File.join(build_dir, 'build_archive.sh')} && #{File.join(build_dir, 'build_archive.sh')}")
+    end
+
+    # 4. 预留：钉钉/邮件通知（后续在 ci-scripts/notify/ 下实现脚本后取消注释）
+    # sh("bash ci-scripts/notify/notify_dingtalk.sh 'Demo CI 构建成功'")
+    # sh("python3 ci-scripts/notify/notify_email.py --subject 'Demo CI 成功' --body '构建成功'")
+  end
+end

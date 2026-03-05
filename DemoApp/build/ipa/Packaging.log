@@ -1,139 +1,139 @@
-2026-03-04 10:19:59 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x1217ae920; archive(resolved)="<IDEArchive: 0x6000017b5260>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
+2026-03-05 09:09:20 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x15382e740; archive(resolved)="<IDEArchive: 0x6000011b4b60>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
 	Chain (14, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x1217ae920; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionProcessingPipelineContext: 0x1217addb0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x1217adba0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x1233338a0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x12312cf40; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x123333690; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x123332fa0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x123332d90; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x123128f70; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="<IDEProvisioningBasicTeam: 0x600003d51ec0; teamID='597KH49S4M', teamName='ms shi'>">
-	<IDEDistributionContext: 0x12312b740; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="(null)">
-	<IDEDistributionContext: 0x121677280; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="(null)">
-	<IDEDistributionContext: 0x1233314f0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="(null)">
-	<IDEDistributionContext: 0x123127b90; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003e60ac0>", team="(null)">
-	<IDEDistributionContext: 0x121660be0; archive = "<IDEArchive: 0x6000017b5260>", distributionMethod="(null)", team="(null)">
-</IDEDistributionProcessingPipelineContext: 0x1217ae920>
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionCopyItemStep
-2026-03-04 10:19:59 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root/Payload/DemoApp.app'
-2026-03-04 10:19:59 +0000  >>> Copying /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app 
-2026-03-04 10:19:59 +0000  copying file ./_CodeSignature/CodeResources ... 
-2026-03-04 10:19:59 +0000  3895 bytes for ./_CodeSignature/CodeResources
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
-2026-03-04 10:19:59 +0000  958 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
-2026-03-04 10:19:59 +0000  1225 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
-2026-03-04 10:19:59 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2026-03-04 10:19:59 +0000  1225 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2026-03-04 10:19:59 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-2026-03-04 10:19:59 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2026-03-04 10:19:59 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
-2026-03-04 10:19:59 +0000  copying file ./DemoApp ... 
-2026-03-04 10:19:59 +0000  89824 bytes for ./DemoApp
-2026-03-04 10:19:59 +0000  copying file ./embedded.mobileprovision ... 
-2026-03-04 10:19:59 +0000  12171 bytes for ./embedded.mobileprovision
-2026-03-04 10:19:59 +0000  copying file ./Info.plist ... 
-2026-03-04 10:19:59 +0000  1455 bytes for ./Info.plist
-2026-03-04 10:19:59 +0000  copying file ./PkgInfo ... 
-2026-03-04 10:19:59 +0000  8 bytes for ./PkgInfo
-2026-03-04 10:19:59 +0000 [MT] /usr/bin/ditto exited with 0
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionSymbolsStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionAppThinningStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionArchThinningStep
-2026-03-04 10:19:59 +0000 [MT] Archs to thin for item /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app are []
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionODRStep
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
-2026-03-04 10:19:59 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionCodesignStep
-2026-03-04 10:19:59 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000018b2460; bundleID='ms.DemoApp', path='<DVTFilePath:0x60000184e9a0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000018b1ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000932040; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
+	<IDEDistributionProcessingPipelineContext: 0x15382e740; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionProcessingPipelineContext: 0x15382e4b0; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x15382e2a0; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x1526995f0; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x1526993e0; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x153813a50; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x153a91940; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x152747e90; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x152745390; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="<IDEProvisioningBasicTeam: 0x600003b53ca0; teamID='597KH49S4M', teamName='ms shi'>">
+	<IDEDistributionContext: 0x153a861f0; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="(null)">
+	<IDEDistributionContext: 0x153a8d130; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="(null)">
+	<IDEDistributionContext: 0x153a8cf20; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="(null)">
+	<IDEDistributionContext: 0x122604680; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x60000384b8e0>", team="(null)">
+	<IDEDistributionContext: 0x152737970; archive = "<IDEArchive: 0x6000011b4b60>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x15382e740>
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-03-05 09:09:20 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root/Payload/DemoApp.app'
+2026-03-05 09:09:20 +0000  >>> Copying /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app 
+2026-03-05 09:09:20 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-03-05 09:09:20 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2026-03-05 09:09:20 +0000  958 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-03-05 09:09:20 +0000  1225 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2026-03-05 09:09:20 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-03-05 09:09:20 +0000  1225 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-03-05 09:09:20 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-03-05 09:09:20 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-03-05 09:09:20 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-03-05 09:09:20 +0000  copying file ./DemoApp ... 
+2026-03-05 09:09:20 +0000  89824 bytes for ./DemoApp
+copying file ./embedded.mobileprovision ... 
+2026-03-05 09:09:20 +0000  12171 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2026-03-05 09:09:20 +0000  1455 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2026-03-05 09:09:20 +0000  8 bytes for ./PkgInfo
+2026-03-05 09:09:20 +0000 [MT] /usr/bin/ditto exited with 0
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-03-05 09:09:20 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-03-05 09:09:20 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-03-05 09:09:20 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-03-05 09:09:20 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-03-05 09:09:20 +0000 [MT] Archs to thin for item /Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app are []
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-03-05 09:09:20 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-03-05 09:09:20 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-03-05 09:09:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001eaa460; bundleID='ms.DemoApp', path='<DVTFilePath:0x600001e43ae0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001ea2e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000f015c0; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2025-10-10 05:34:00 +0000''>', entitlements='{
     "application-identifier" = "597KH49S4M.ms.DemoApp";
     "com.apple.developer.team-identifier" = 597KH49S4M;
     "get-task-allow" = 1;
-}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x6000018b1020:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'>: {
+}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x600001ea6040:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'>: {
     "application-identifier" = "597KH49S4M.ms.DemoApp";
     "com.apple.developer.team-identifier" = 597KH49S4M;
     "get-task-allow" = 1;
 }
-2026-03-04 10:19:59 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
-2026-03-04 10:19:59 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000018b2460; bundleID='ms.DemoApp', path='<DVTFilePath:0x60000184e9a0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000018b1ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000931080; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
+2026-03-05 09:09:20 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-03-05 09:09:20 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600001eaa460; bundleID='ms.DemoApp', path='<DVTFilePath:0x600001e43ae0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001ea2e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000f015c0; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2025-10-10 05:34:00 +0000''>', entitlements='{
     "application-identifier" = "597KH49S4M.ms.DemoApp";
     "com.apple.developer.team-identifier" = 597KH49S4M;
     "get-task-allow" = 1;
-}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x6000018b1020:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'> are: {
+}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x600001ea6040:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'> are: {
     "application-identifier" = "597KH49S4M.ms.DemoApp";
     "com.apple.developer.team-identifier" = 597KH49S4M;
     "get-task-allow" = 1;
 }
-2026-03-04 10:19:59 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000018b2460; bundleID='ms.DemoApp', path='<DVTFilePath:0x60000184e9a0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000018b1ec0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000931080; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
+2026-03-05 09:09:20 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600001eaa460; bundleID='ms.DemoApp', path='<DVTFilePath:0x600001e43ae0:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600001ea2e80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600000f370c0; name='Apple Development: shichuanyang@52tt.com (SZBT6249Q8)', hash='15A411FF35E855C35AD905FFBA71CD002ECFE569', serialNumber='4EB5F5BA660C6D46424FF008EF8E3D04', certificateKinds='(
     "1.2.840.113635.100.6.1.12",
     "1.2.840.113635.100.6.1.2"
 ), issueDate='2025-10-10 05:34:00 +0000''>', entitlements='{
     "application-identifier" = "597KH49S4M.ms.DemoApp";
     "com.apple.developer.team-identifier" = 597KH49S4M;
     "get-task-allow" = 1;
-}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x6000018b1020:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'> to: /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/entitlements~~~OKZ8rD
-2026-03-04 10:19:59 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600001c14410; launchPath='/usr/bin/codesign', arguments='(
+}', teamID='597KH49S4M', identifier='ms.DemoApp', executablePath='<DVTFilePath:0x600001ea6040:'/Users/tt/Desktop/需求/CITest/tt-ios-ci-lab/DemoApp/build/DemoApp.xcarchive/Products/Applications/DemoApp.app/DemoApp'>', hardenedRuntime='0'>'> to: /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/entitlements~~~yQOk5l
+2026-03-05 09:09:20 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600001a18190; launchPath='/usr/bin/codesign', arguments='(
     "-f",
     "-s",
     15A411FF35E855C35AD905FFBA71CD002ECFE569,
     "--entitlements",
-    "/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/entitlements~~~OKZ8rD",
+    "/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/entitlements~~~yQOk5l",
     "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
     "--generate-entitlement-der",
     "--strip-disallowed-xattrs",
     "-vvv",
-    "/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root/Payload/DemoApp.app"
+    "/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root/Payload/DemoApp.app"
 )'>
-2026-03-04 10:19:59 +0000 [MT] codesign output: /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root/Payload/DemoApp.app: replacing existing signature
-/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root/Payload/DemoApp.app: signed app bundle with Mach-O thin (arm64) [ms.DemoApp]
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
-2026-03-04 10:19:59 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Packages/DemoApp.ipa'
-2026-03-04 10:19:59 +0000  >>> Copying /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root 
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/_CodeSignature/CodeResources ... 
-2026-03-04 10:19:59 +0000  3895 bytes for ./Payload/DemoApp.app/_CodeSignature/CodeResources
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
-2026-03-04 10:19:59 +0000  958 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
-2026-03-04 10:19:59 +0000  1225 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
-2026-03-04 10:19:59 +0000  258 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/Info.plist
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2026-03-04 10:19:59 +0000  1225 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2026-03-04 10:19:59 +0000  924 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2026-03-04 10:19:59 +0000  258 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/DemoApp ... 
-2026-03-04 10:19:59 +0000  89824 bytes for ./Payload/DemoApp.app/DemoApp
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/embedded.mobileprovision ... 
-2026-03-04 10:19:59 +0000  12171 bytes for ./Payload/DemoApp.app/embedded.mobileprovision
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/Info.plist ... 
-2026-03-04 10:19:59 +0000  1455 bytes for ./Payload/DemoApp.app/Info.plist
-2026-03-04 10:19:59 +0000  copying file ./Payload/DemoApp.app/PkgInfo ... 
-2026-03-04 10:19:59 +0000  8 bytes for ./Payload/DemoApp.app/PkgInfo
-2026-03-04 10:19:59 +0000 [MT] /usr/bin/ditto exited with 0
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
-2026-03-04 10:19:59 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
-2026-03-04 10:19:59 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600001890d80:'/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~Gp0vgK/Root/Payload/DemoApp.app'>
-2026-03-04 10:19:59 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-03-05 09:09:21 +0000 [MT] codesign output: /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root/Payload/DemoApp.app: replacing existing signature
+/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root/Payload/DemoApp.app: signed app bundle with Mach-O thin (arm64) [ms.DemoApp]
+2026-03-05 09:09:21 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-03-05 09:09:21 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-03-05 09:09:21 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-03-05 09:09:21 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root' '/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Packages/DemoApp.ipa'
+2026-03-05 09:09:21 +0000  >>> Copying /var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root 
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/_CodeSignature/CodeResources ... 
+2026-03-05 09:09:21 +0000  3895 bytes for ./Payload/DemoApp.app/_CodeSignature/CodeResources
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2026-03-05 09:09:21 +0000  958 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-03-05 09:09:21 +0000  1225 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2026-03-05 09:09:21 +0000  258 bytes for ./Payload/DemoApp.app/Base.lproj/Main.storyboardc/Info.plist
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-03-05 09:09:21 +0000  1225 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-03-05 09:09:21 +0000  924 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/DemoApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/DemoApp ... 
+2026-03-05 09:09:21 +0000  89824 bytes for ./Payload/DemoApp.app/DemoApp
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/embedded.mobileprovision ... 
+2026-03-05 09:09:21 +0000  12171 bytes for ./Payload/DemoApp.app/embedded.mobileprovision
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/Info.plist ... 
+2026-03-05 09:09:21 +0000  1455 bytes for ./Payload/DemoApp.app/Info.plist
+2026-03-05 09:09:21 +0000  copying file ./Payload/DemoApp.app/PkgInfo ... 
+2026-03-05 09:09:21 +0000  8 bytes for ./Payload/DemoApp.app/PkgInfo
+2026-03-05 09:09:21 +0000 [MT] /usr/bin/ditto exited with 0
+2026-03-05 09:09:21 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-03-05 09:09:21 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-03-05 09:09:21 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-03-05 09:09:21 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600001e836c0:'/var/folders/6t/16mwqxjs66ld63tk0r1399ym0000gn/T/XcodeDistPipeline.~~~3wxoqJ/Root/Payload/DemoApp.app'>
+2026-03-05 09:09:21 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
