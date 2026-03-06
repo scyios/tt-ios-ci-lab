@@ -5,13 +5,15 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Demo CI：pod install + build_debug + build_archive，导出 IPA + 飞书通知"
+  desc "Demo CI：pod install + build_debug + build_archive，导出 IPA + 蒲公英 + 飞书/邮件通知"
   lane :demo_ci do
     # 1. 计算关键路径（仓库根 / DemoApp / ci-scripts）
     repo_root       = File.expand_path("..", __dir__)
     demoapp_path    = File.join(repo_root, "DemoApp")
     build_dir       = File.join(repo_root, "ci-scripts", "build")
+    upload_pgyer    = File.join(repo_root, "ci-scripts", "pgyer", "upload_pgyer.py")
     notify_feishu   = File.join(repo_root, "ci-scripts", "notify", "notify_feishu.py")
+    notify_email    = File.join(repo_root, "ci-scripts", "notify", "notify_email.py")
 
     begin
       # 2. 安装依赖（与 Jenkins 中一致，使用 RVM 调用 pod）
@@ -29,11 +31,23 @@ platform :ios do
         sh("chmod +x #{File.join(build_dir, 'build_archive.sh')} && #{File.join(build_dir, 'build_archive.sh')}")
       end
 
-      # 5. 构建成功：通知飞书
-      sh("python3 #{notify_feishu} --status success --text 'Demo CI 构建成功'")
+      # 5. 上传到蒲公英，获取短链接和二维码地址
+      pgyer_result = sh("python3 #{upload_pgyer}")
+      shortcut, qr_url = pgyer_result.strip.split("|", 2)
+      pgyer_download_url = "https://www.pgyer.com/#{shortcut}"
+
+      # 6. 构建成功：通知飞书 + 邮件（包含蒲公英信息）
+      feishu_text = <<~TEXT.strip
+        Demo CI 构建成功
+        蒲公英下载链接: #{pgyer_download_url}
+        蒲公英二维码: #{qr_url}
+      TEXT
+      sh("python3 #{notify_feishu} --status success --text #{Shellwords.escape(feishu_text)}")
+      sh("python3 #{notify_email}  --status success")
     rescue => e
-      # 6. 构建失败：通知飞书（通知失败不阻塞抛错，用 || true 吃掉自身错误）
+      # 7. 构建失败：通知飞书 + 邮件（通知失败不阻塞抛错，用 || true 吃掉自身错误）
       sh("python3 #{notify_feishu} --status failure --text 'Demo CI 构建失败: #{e.message}' || true")
+      sh("python3 #{notify_email}  --status failure || true")
       raise e
     end
   end
